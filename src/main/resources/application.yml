@@ -1,0 +1,26 @@
+server:
+    port: 8100
+    
+spring: 
+  profiles: 
+    active: loc
+  mvc:
+    view:
+      prefix: /WEB-INF/jsp/
+      suffix: .jsp
+  devtools:
+    livereload:
+      enabled: true        #JSP 즉시반영
+      
+
+--- #loc 
+spring: 
+  profiles: loc
+
+--- #dev 
+spring: 
+  profiles: dev
+
+--- #prd
+spring: 
+  profiles: prd
