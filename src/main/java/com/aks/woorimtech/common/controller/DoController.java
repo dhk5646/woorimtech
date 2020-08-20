@@ -1,4 +1,4 @@
-package com.aks.woorimtech.cmm.controller;
+package com.aks.woorimtech.common.controller;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -9,7 +9,7 @@ import org.springframework.web.servlet.ModelAndView;
 
 
 @Controller
-public class JspController {
+public class DoController {
 	
 	@RequestMapping(value = {"/**/*.do", "/"})
 	public ModelAndView doGet(HttpServletRequest request, HttpServletResponse response) throws Exception {
@@ -22,7 +22,6 @@ public class JspController {
 		}else {
 			mav.setViewName("/index"); //초기페이지 설정
 		}
-		
 		
 		return mav;
 	}

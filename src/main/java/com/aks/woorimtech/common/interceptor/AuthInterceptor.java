@@ -1,5 +1,5 @@
 
-package com.aks.woorimtech.cmm.interceptor;
+package com.aks.woorimtech.common.interceptor;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
