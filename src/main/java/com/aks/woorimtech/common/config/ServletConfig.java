@@ -16,7 +16,7 @@ import com.aks.woorimtech.common.interceptor.AuthInterceptor;
 
 @Configuration
 @EnableWebMvc
-@ComponentScan(basePackages= {"com.aks.mot"}, useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(Controller.class)})
+@ComponentScan(basePackages= {"com.aks.woorimtech"}, useDefaultFilters = false, includeFilters = {@ComponentScan.Filter(Controller.class)})
 public class ServletConfig implements WebMvcConfigurer{
 	
 	@Override

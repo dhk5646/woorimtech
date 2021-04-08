@@ -18,7 +18,7 @@ import com.aks.woorimtech.common.util.BeanUtil;
 
 @Comment("application-context.xml Role")
 @Configuration
-@ComponentScan(basePackages= {"com.aks.mot"}, excludeFilters = @ComponentScan.Filter(Controller.class))
+@ComponentScan(basePackages= {"com.aks.woorimtech"}, excludeFilters = @ComponentScan.Filter(Controller.class))
 @PropertySource({"classpath:application.properties"})
 @EnableTransactionManagement
 @EnableAutoConfiguration // 자동설정 활성화
